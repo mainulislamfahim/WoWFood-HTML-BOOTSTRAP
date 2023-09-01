@@ -1,5 +1,5 @@
 # Restaurant Food Order Theme
-This is a Restaurant Theme Website Template, designed using html and css. It was developed while teaching "Responsive Web Design Course".
+This is a Restaurant Theme Website Template, designed using html, Bootstrap and css. User can order food, foods will automatically add to the cart where user can edit the orders quantity. For more go through the index.html Thank you👀
 
 
 
