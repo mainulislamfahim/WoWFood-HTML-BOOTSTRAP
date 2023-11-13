@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Contact Section Starts Here -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+
+            <form action="contact.php" method="POST">
+                <fieldset>
+                    <div class="order-label">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" class="input-responsive" placeholder="Your Name"
+                            required>
+                    </div>
+
+                    <div class="order-label">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" class="input-responsive" placeholder="Your Email"
+                            required>
+                    </div>
+
+                    <div class="order-label">
+                        <label for="mobile">Your Mobile Number</label>
+                        <input type="tel" id="mobile" name="mobile" class="input-responsive"
+                            placeholder="Your Mobile Number" required>
+                    </div>
+
+                    <div class="order-label">
+                        <label for="description">Your Message</label>
+                        <textarea id="description" name="description" class="input-responsive"
+                            placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <input type="submit" name="submit" value="Submit" class="btn btn-primary">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section Ends Here -->
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Mainul Islam</a></p>
+        </div>
+    </section>
+    <!-- Include your footer and any other common elements if needed -->
+
+</body>
+
+</html>
